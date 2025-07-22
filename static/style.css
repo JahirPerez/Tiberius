@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/e/e2/Rome_Tiber.jpg") center/cover no-repeat fixed;
+    color: #fff;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 40px;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #aa8453;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.response {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-style: italic;
+}
